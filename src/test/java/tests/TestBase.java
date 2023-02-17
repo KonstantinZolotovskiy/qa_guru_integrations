@@ -28,7 +28,7 @@ public class TestBase {
         browser = System.getProperty("browser", "chrome");
         browserVersion = System.getProperty("browserVersion", "100.0");
         browserSize = System.getProperty("browserSize", "1920x1080");
-        //remote = "https://user1:1234@" + System.getProperty("remote", "selenoid.autotests.cloud") + "/wd/hub";
+        remote = "https://user1:1234@" + System.getProperty("remote", "selenoid.autotests.cloud") + "/wd/hub";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
