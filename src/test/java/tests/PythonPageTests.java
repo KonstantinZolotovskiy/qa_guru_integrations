@@ -1,6 +1,5 @@
 package tests;
 
-import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -9,7 +8,6 @@ import org.junit.jupiter.api.Test;
 public class PythonPageTests extends TestBase {
 
     @Test
-    @Feature("Страница Python")
     @DisplayName("Проверка цены \"Курс Python\"")
     @Owner("K.Zolotovskiy")
     void pythonPriceOptionsTest() {

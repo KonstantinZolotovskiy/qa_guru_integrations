@@ -58,8 +58,8 @@ public class TestData {
         javaAdvanceLessonTitleList.add("5. Работаем с реляционными базами данных из тестов. Дмитрий Тучс");
         javaAdvanceLessonTitleList.add("6. Автоматизация на проекте «с нуля» – строим минимальный фреймворк. Дмитрий Тучс");
         javaAdvanceLessonTitleList.add("7. Параллелизация тестов в JUnit5: Как не выстрелить себе в ногу. Дмитрий Тучс");
-        javaAdvanceLessonTitleList.add("8. Нативное тестирование iOS. XCTest. Часть 3. Владислав Зингер");
-        javaAdvanceLessonTitleList.add("9. Кастомизация фреймворков – расширяем Allure, Selenide, HTTP клиенты. Дмитрий Тучс");
+        javaAdvanceLessonTitleList.add("8. Кастомизация фреймворков – расширяем Allure, Selenide, HTTP клиенты. Дмитрий Тучс");
+        javaAdvanceLessonTitleList.add("9. Нативное тестирование iOS. XCTest. Часть 3. Владислав Зингер");
         javaAdvanceLessonTitleList.add("10. Unit тесты – пишем тестируемый код и тесты для него. Дмитрий Тучс");
         javaAdvanceLessonTitleList.add("11. Создаем WEB-сервис на Java. Дмитрий Тучс");
         javaAdvanceLessonTitleList.add("12. Тестируем SOAP сервисы с помощью REST Assured. Дмитрий Тучс");
