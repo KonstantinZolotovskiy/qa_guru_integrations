@@ -16,7 +16,8 @@ public class Components {
             modalWindowWithSyllabus = $(".lesson-list"),
             firstOption = $("[data-param=\"data/0/price\"]"),
             secondOption = $("[data-param=\"data/1/price\"]"),
-            thirdOption = $("[data-param=\"data/2/price\"]");
+            thirdOption = $("[data-param=\"data/2/price\"]"),
+            syllabusButton = $(".main-header__menu .show-programm-btn-2");
 
     ElementsCollection lessonsTitle = $$x("//div[@class='link title']");
 
@@ -34,5 +35,9 @@ public class Components {
     public void checkCourseSyllabus(List<String> lessonTitleList) {
         modalWindowWithSyllabus.should(visible);
         lessonTitleList.forEach(e -> lessonsTitle.find(text(e)).scrollIntoView(true).should(visible));
+    }
+
+    public void clickSyllabusButton() {
+        syllabusButton.should(visible).click();
     }
 }
