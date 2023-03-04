@@ -19,6 +19,7 @@ public class PythonPageTests extends TestBase {
     @DisplayName("Проерка заголовков занятий в учебном плане курса Python")
     @Owner("K.Zolotovskiy")
     void pythonLessonsTitleTest() {
-        pythonPage.checkCourseSyllabus(data.pythonLessonTitleList);
+        pythonPage.openPythonPage()
+                .checkCourseSyllabus(data.pythonLessonTitleList);
     }
 }

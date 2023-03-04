@@ -18,6 +18,7 @@ public class JavaPageTests extends TestBase {
     @DisplayName("Проерка заголовков занятий в учебном плане курса Java")
     @Owner("K.Zolotovskiy")
     void javaLessonsTitleTest() {
-        javaPage.checkCourseSyllabus(data.javaLessonTitleList);
+        javaPage.openJavaPage()
+                .checkCourseSyllabus(data.javaLessonTitleList);
     }
 }
