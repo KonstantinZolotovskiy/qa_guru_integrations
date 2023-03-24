@@ -12,7 +12,7 @@ public class PythonPageTests extends TestBase {
     @Owner("K.Zolotovskiy")
     void pythonPriceOptionsTest() {
         pythonPage.openPythonPage()
-                .checkCoursePrice(data.firstOptionPrice, data.secondOptionPrice, data.thirdOptionPrice);
+                .checkCoursePrice(data.pythonFirstOptionPrice, data.pythonSecondOptionPrice, data.pythonThirdOptionPrice);
     }
 
     @Test

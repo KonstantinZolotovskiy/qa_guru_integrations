@@ -11,7 +11,7 @@ public class JavaPageTests extends TestBase {
     @Owner("K.Zolotovskiy")
     void javaPriceOptionsTest() {
         javaPage.openJavaPage()
-                .checkCoursePrice(data.firstOptionPrice, data.secondOptionPrice, data.thirdOptionPrice);
+                .checkCoursePrice(data.javaFirstOptionPrice, data.javaSecondOptionPrice, data.javaThirdOptionPrice);
     }
 
     @Test
