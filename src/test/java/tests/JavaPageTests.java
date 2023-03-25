@@ -15,7 +15,7 @@ public class JavaPageTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Проерка заголовков занятий в учебном плане курса Java")
+    @DisplayName("Проверка заголовков занятий в учебном плане курса Java")
     @Owner("K.Zolotovskiy")
     void javaLessonsTitleTest() {
         javaPage.openJavaPage()

@@ -16,7 +16,7 @@ public class PythonPageTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Проерка заголовков занятий в учебном плане курса Python")
+    @DisplayName("Проверка заголовков занятий в учебном плане курса Python")
     @Owner("K.Zolotovskiy")
     void pythonLessonsTitleTest() {
         pythonPage.openPythonPage()
